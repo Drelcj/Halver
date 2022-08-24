@@ -5,9 +5,9 @@ export const header = () => {
   return (
     <header>
       <div className="container header__container">
-        <h5>Hello Welcome to</h5>
-        <h1>Halver Music</h1>
-        <h5 className="text-light"> An Afro Pop Entertainer </h5>
+        <h5>Hello, Welcome to the</h5>
+        <h1>New School Trenches</h1>
+        <h5 className="text-light"> Halver's World </h5>
         
       </div>
     </header>
