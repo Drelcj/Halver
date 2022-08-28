@@ -11,7 +11,8 @@ import {BiMessageDetail} from 'react-icons/bi'
 const nav = () => {
   return (
     <nav>
-      <a href="#"><AiTwotoneHome /></a>
+      <a href="#"
+      className='active'><AiTwotoneHome /></a>
       <a href="#about"><FcAbout /></a>
       <a href="#tour"><GiDetour /></a>
       <a href="#music"><GiMusicSpell /></a>
