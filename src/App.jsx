@@ -6,7 +6,7 @@ import Tour from './components/Tour/tour'
 import Music from './components/music/music'
 import Services from './components/services/services'
 import Fans from './components/fans/fans'
-import Contacts from './components/contacts/contact'
+import Contact from './components/contact/contact'
 import Footer from './components/footer/footer'
 
 const App = () => {
@@ -19,7 +19,7 @@ const App = () => {
         <Music />
         <Services />
         <Fans />
-        <Contacts />
+        <Contact />
         <Footer />
 
     </>
