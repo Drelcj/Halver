@@ -3,7 +3,7 @@ import './music.css'
 
 export const music = () => {
   return (
-    <div>music</div>
+    <section id='music'>music</section>
   )
 }
 

@@ -3,7 +3,7 @@ import './fans.css'
 
 export const fans = () => {
   return (
-    <div>fans</div>
+    <section id='fans'>fans</section>
   )
 }
 

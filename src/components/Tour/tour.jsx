@@ -3,7 +3,7 @@ import './tour.css'
 
 export const tour = () => {
   return (
-    <div>tour</div>
+    <section id='tour'>tour</section>
   )
 }
 
