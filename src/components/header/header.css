@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    padding-top: 7rem;
+    padding-top: 3rem;
     overflow: hidden;
 }
 
@@ -12,7 +12,7 @@ header {
 
 /* ======================= CTA ================ */
 .cta {
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
@@ -43,9 +43,11 @@ header {
     width: 28rem;
     height: 50rem;
     position: absolute;
-    left: calc(50% - 11rem);
-    margin-top: 1rem;
-    border-radius: 12rem 12rem 0 0;
+    /*left: calc(50% - 11rem);*/
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 0.1rem;
+    /*border-radius: 12rem 12rem 0 0; */
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
