@@ -3,7 +3,10 @@ import './tour.css'
 
 export const Tour = () => {
   return (
-    <section id='tour'>tour</section>
+    <section id='tour'>
+      
+      <h5> Tour across the country</h5>
+    </section>
   )
 }
 
