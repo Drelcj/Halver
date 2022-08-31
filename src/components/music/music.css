@@ -55,9 +55,17 @@
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
     }
+
+    .service {
+        height: auto;
+    }
 }
 
 /*======================== media queries (small devices) =======tablets*/
 @media screen and (max-width: 600px) {
+    .services__container {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
 
 }
