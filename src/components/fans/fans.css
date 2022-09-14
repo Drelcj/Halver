@@ -9,7 +9,7 @@
     border-radius: 50%;
     margin: 0 auto 1rem;
     border: 0.4rem solid var(--color-primary-variant)
-    ;
+    ; 
 }
 
 .fan {
@@ -26,3 +26,22 @@
     width: 80%;
     margin: 0.8rem;
 }
+
+/*======================== media queries (medium devices) =======tablets*/
+@media screen and (max-width: 1024px) {
+    .container.fans__container {
+        width: 60%;
+    }
+}
+
+/*======================== media queries (small devices) =======tablets*/
+@media screen and (max-width: 600px) {
+   .container.fans__container {
+    width: var(--container-width-sm);
+   }
+
+
+   .client__review {
+    width: var(--container-width-sm);
+   }
+ }

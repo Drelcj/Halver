@@ -3,6 +3,7 @@ import './header.css'
 import CTA from './CTA'
 import ME1 from '../../assets/me1.jpeg'
 import HeaderSocials from './headerSocials'
+import halverclout from '../../assets/halverclout.mp4'
 
 export const Header = () => {
   return (
@@ -13,11 +14,10 @@ export const Header = () => {
         <h5 className="text-light"> Halver's World </h5>
         <CTA />
         <HeaderSocials />
-
           <div className='me'>
-            <img src={ME1} alt="Halver" />
+          <video src={halverclout} autoPlay loop muted />
+            <img src={ME1} alt="Halver"/>
           </div>
-
           <a href="#contact" className='scroll__down'> Scroll Down</a>
       </div>
     </header>
