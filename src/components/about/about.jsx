@@ -21,24 +21,27 @@ export const About = () => {
             <article className='about__card'>
               <GiLoveSong className='about__icon'/>
               <h5>Music Style</h5>
-              <small>Performing Afro Pop entertainer who has a knack for thrilling audiences across the globe with good music</small>
+              <small>Afro-fusionist</small>
             </article>
 
             <article className='about__card'>
               <GiLoveSong className='about__icon'/>
               <h5>Persona</h5>
-              <small>Values true friendship, outgoing and energetic goal getter</small>
+              <small>Afro-jiggy</small>
             </article>
              
             <article className='about__card'>
               <GiLoveSong className='about__icon'/>
               <h5>Lifestyle</h5>
-              <small>Performing Afro Pop entertainer who has a knack for thrilling audiences across the globe with good music</small>
+              <small>steady paper chasing </small>
             </article>
              
           </div>
 
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, inventore id consequuntur facere corporis atque officia beatae eos ipsum. Quisquam quia, ad perspiciatis natus id porro ipsa fuga temporibus eaque.</p>
+          <p>"The trenches has made me realize that being humble
+            and true to oneself is the best way in trying to figure out this life thing". Ed joined the industry
+            in 2019 with sights fixed on making the trenches proud
+            and he's certainly been doing a great job so fa.</p>
           
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
          </div>
